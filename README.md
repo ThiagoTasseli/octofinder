@@ -1,54 +1,67 @@
-# React + TypeScript + Vite
+# 🐙 OctoFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um buscador de perfis do GitHub feito para treinar os conhecimentos adquiridos no bootcamp da **Generation Brasil** — Java Full Stack Developer.
 
-Currently, two official plugins are available:
+🔍 Digite o nome de um usuário e veja informações como repositórios públicos, seguidores, bio e muito mais!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🌐 Projeto online
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+👉 [Acesse aqui](https://octofinder.netlify.app/)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+
+## 🖼️ Screenshot
+
+Aqui está um exemplo da interface do OctoFinder:
+
+<div align="center">
+
+  <img src="https://github.com/user-attachments/assets/9f476555-dab6-473a-a464-c86d22dd20a1" alt="Screenshot do OctoFinder" />
+
+</div>
+
+## ⚙️ Tecnologias utilizadas
+
+- **React** + **Vite**
+- **TypeScript**
+- **CSS Modules**
+- **GitHub REST API**
+
+## 🚀 Funcionalidades
+
+- Busca de perfis públicos do GitHub
+- Exibição de avatar, bio, localidade, repositórios, seguidores e seguindo
+- Acesso rápido aos links dos repositórios
+
+## 🧠 Objetivo
+
+Este projeto foi desenvolvido como parte do meu processo de aprendizado. O foco foi praticar:
+
+- Integração com APIs externas
+- Componentização em React com TypeScript
+- Organização de estilos com CSS Modules
+- Deploy com Netlify
+
+
+## 📦 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/tasselii/github-finder.git
+
+# Acesse o diretório
+cd github-finder
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+
+
 ```
+## 📩 Contato
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Desenvolvido por [**Thiago Tasseli**](https://www.linkedin.com/in/thiagotasseli-tech/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Fique à vontade para tirar dúvidas, dar sugestões ou contribuir! 😄
