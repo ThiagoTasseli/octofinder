@@ -47,7 +47,7 @@ Este projeto foi desenvolvido como parte do meu processo de aprendizado. O foco 
 
 ```bash
 # Clone o repositório
-git clone https://github.com/tasselii/github-finder.git
+git clone https://github.com/ThiagoTasseli/octofinder.git
 
 # Acesse o diretório
 cd github-finder
